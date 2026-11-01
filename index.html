@@ -1,0 +1,70 @@
+# SIÊU CÂU LỆNH TẠO WEBSITE QUÁN BÒ NÉ & MỲ CAY NAGA (CHUẨN RISEN)
+
+## 1. ROLE (VAI TRÒ)
+Bạn là Chuyên gia Kiến trúc Website F&B, Kỹ sư Frontend Senior (HTML5, CSS3/Tailwind CSS, Vanilla JavaScript) và Chuyên gia Tối ưu Chuyển đổi Thực chiến (CRO & Local SEO). Nhiệm vụ của bạn là lập trình một bộ mã nguồn website hoàn chỉnh, chạy thật 100% trên trình duyệt, chuẩn Responsive (Mobile-First), sẵn sàng triển khai ngay lên GitHub Pages cho quán Bò Né & Mỳ Cay Naga của ông chủ Bá Thành tại số 396 Nguyễn Thị Kiểu, Phường Tân Thới Hiệp.
+
+## 2. INSTRUCTIONS (CHỈ DẪN CHI TIẾT VỀ NỘI DUNG & TÍNH NĂNG)
+Website phải thể hiện trọn vẹn 3 chiến lược kinh doanh cốt lõi của quán thông qua giao diện trực quan và các tính năng JavaScript hoạt động thực tế:
+
+### PHẦN 1: THU HÚT KHÁCH HÀNG MỚI ĐẾN QUÁN
+1. **Header & Thanh điều hướng dính (Sticky Navbar):**
+   - Hiển thị `[TÊN QUÁN CHÍNH THỨC] - Bò Né & Mỳ Cay Naga`, địa chỉ rút gọn `396 Nguyễn Thị Kiểu, P. Tân Thới Hiệp` và nút gọi nhanh `0392755766` (`tel:0392755766`).
+2. **Màn hình đầu (Hero Section - Đánh thức giác quan):**
+   - Thiết kế ấn tượng với hiệu ứng khói bay nhẹ bằng CSS (`@keyframes steam`) trên khung ảnh `[ẢNH CHẢO BÒ NÉ XÈO XÈO]` và `[ẢNH THỐ MỲ CAY ĐỎ AU]`.
+   - Tiêu đề lớn kích thích vị giác, nêu bật điểm đến tại **Số 396 Nguyễn Thị Kiểu, Phường Tân Thới Hiệp**.
+   - **Banner Ưu đãi Trải nghiệm Lần đầu:** Làm nổi bật chương trình *"Khách hàng lần đầu đặt bàn trước qua Website hoặc Zalo 0392755766: Tặng miễn phí 01 ly nước mát HOẶC thêm 01 bánh mì nóng giòn"*. Có nút chọn quà tặng tích hợp thẳng vào biểu mẫu đặt bàn.
+3. **Thực đơn Thông minh theo Khung giờ & Niêm yết Giá Minh bạch:**
+   - Có 2 Tab chuyển đổi mượt mà bằng JavaScript (tự động gợi ý tab theo giờ hệ thống của khách nhưng cho phép bấm chuyển tùy ý):
+     - **Tab 1 - Bữa Sáng & Trưa Nhanh Gọn (Năng lượng cho người đi làm):** Danh sách các phần Bò Né chảo gang nóng hổi, bánh mì giòn rụm, pate, trứng ốp la, phô mai...
+     - **Tab 2 - Bữa Chiều & Tối Ấm Cúng (Mỳ Cay Naga cho gia đình & giới trẻ):** Danh sách Mỳ Cay bò Mỹ, hải sản, thập cẩm thố đất giữ nhiệt lâu.
+     - **Tab 3 - Món Gọi Thêm (Topping & Nước uống):** Công khai từng món gọi thêm (bánh mì thêm, trứng thêm, bò thêm, nấm, rau, nước mát...).
+   - **Nguyên tắc giá:** Mọi món ăn và món gọi thêm đều có nhãn `[GIÁ]` rõ ràng từ mảng dữ liệu `menuData` trong `script.js`. Hiển thị huy hiệu cam kết: *"Giá niêm yết công khai tại bàn và trên website – Cam kết 100% không phát sinh chi phí ẩn"*.
+
+### PHẦN 2: GIẢI PHÁP GIÚP KHÁCH HÀNG HOÀN TOÀN AN TÂM KHI THƯỞNG THỨC
+4. **Khu vực "An Tâm Tuyệt Đối – Từ Nguồn Nguyên Liệu Đến Bàn Ăn":**
+   - **Minh bạch nguồn gốc nguyên liệu:** Thẻ thông tin trực quan cam kết: Thịt bò tươi nhập mới mỗi ngày, hải sản sạch, rau nấm rửa kỹ bằng nước lọc sạch (hiển thị tại quán và trên web).
+   - **Không gian bếp mở sạch sẽ:** Khung trưng bày `[ẢNH KHÔNG GIAN BẾP MỞ]` với 3 tiêu chuẩn: Khu vực chế biến gọn gàng; Nhân viên luôn đeo tạp dề & khẩu trang; Chảo gang và thố đất được tiệt trùng khô ráo trước khi lên món.
+5. **Bộ Công Cụ Cá Nhân Hóa An Toàn Vị Giác (Interactive Taste Customizer):**
+   - Cho phép khách hàng bấm chọn thử và gắn trực tiếp vào đơn đặt bàn/gọi món:
+     - **Thanh trượt / Nút chọn 7 Cấp Độ Cay (0 - 7):** Đặc biệt làm nổi bật **Cấp độ 0 (Không cay - Nước dùng thanh ngọt, an toàn tuyệt đối cho trẻ em và người đau dạ dày)** đến Cấp độ 7 (Thử thách Naga). Khi bấm vào từng cấp độ, hiển thị mô tả độ cay tương ứng.
+     - **Tùy chọn Độ chín của Bò:** Tái mềm / Chín vừa / Chín kỹ.
+     - **Tùy chọn Khẩu vị riêng (Checkboxes):** Ít dầu mỡ, Không hành, Nước chấm để riêng, Thêm ớt ngoài.
+
+### PHẦN 3: TIẾP ĐÓN THỎA MÃN & LƯU GIỮ KHÁCH HÀNG GẮN BÓ LÂU DÀI
+6. **Tiêu chuẩn "Quy Trình Đón Tiếp 30 Giây Vàng":**
+   - Thiết kế Timeline 3 bước cam kết dịch vụ ngay khi khách tới 396 Nguyễn Thị Kiểu:
+     - *Giây 01 - 10:* Nhân viên chủ động đón và dắt xe tận tình.
+     - *Giây 10 - 20:* Mỉm cười chào hỏi ngay khi khách dừng chân, hướng dẫn chỗ ngồi phù hợp.
+     - *Giây 20 - 30:* Mời nước uống miễn phí ngay khi khách vừa ngồi vào bàn.
+7. **Tính năng "Ghi Nhớ Khẩu Vị Khách Quen" & "Thẻ Tích Điểm Điện Tử (5 Tặng 1)" theo SĐT:**
+   - Xây dựng khu vực tương tác dành cho Khách Quen hoạt động bằng JavaScript (`localStorage` kết hợp đồng bộ tin nhắn Zalo `0392755766`):
+     - **Hồ sơ Khẩu vị theo Số điện thoại:** Khách nhập số điện thoại và lưu cấu hình quen thuộc (Ví dụ: *"Bò chín kỹ, ít dầu, mỳ cay cấp độ 1, không hành"*). Lần sau mở web trên thiết bị hoặc bấm "Gửi khẩu vị quen qua Zalo đặt bàn", hệ thống tự động điền sẵn đầy đủ thông tin để quán phục vụ chuẩn xác 100%.
+     - **Thẻ Tích Điểm Tri Ân (Visual Stamp Card 5 Ô):** Hiển thị giao diện thẻ 5 dấu mộc trực quan. Nêu rõ thể lệ: *"Dùng đủ 5 phần được tặng ngay 01 phần ăn phụ hoặc giảm giá trực tiếp cho lần ghé tiếp theo"*. Có nút *"Xác nhận tích điểm / Đổi quà qua Zalo 0392755766"*.
+   - *Lưu ý kỹ thuật trung thực:* Ghi chú rõ chế độ Demo lưu trên trình duyệt (`localStorage`) và hướng dẫn cách kết nối Google Sheets / Firebase nếu ông chủ Bá Thành muốn đồng bộ dữ liệu tích điểm toàn hệ thống.
+8. **Kênh "Lắng Nghe Trực Tiếp Tại Bàn – Kết Nối Ông Chủ Bá Thành":**
+   - Thiết kế khu vực nổi bật (và nút nổi nhanh) dành riêng cho khách đang ngồi tại bàn quét mã QR: *"Món ăn chưa vừa miệng? Nhắn ngay cho Ông chủ Bá Thành để được xử lý tức thì ngay tại bàn!"*.
+   - Form góp ý nhanh gồm: Số bàn, Mức độ hài lòng, Nội dung cần điều chỉnh (món hơi nguội, cần thêm nước dùng, điều chỉnh độ cay/mặn...) -> Bấm nút sẽ mở trực tiếp Zalo `https://zalo.me/0392755766` hoặc gọi `tel:0392755766` kèm nội dung góp ý để ông chủ Bá Thành tiếp nhận ngay lập tức.
+9. **Định vị Điểm đến Trực tuyến (Local SEO & Bản đồ):**
+   - Nhúng Google Maps hướng dẫn đường đi tới **396 Nguyễn Thị Kiểu, Phường Tân Thới Hiệp**.
+   - Tích hợp `Schema.org Restaurant` (JSON-LD) chuẩn SEO địa phương trong thẻ `<head>` với đầy đủ địa chỉ `396 Nguyễn Thị Kiểu, Phường Tân Thới Hiệp` và số điện thoại `0392755766`.
+
+## 3. STEPS (CÁC BƯỚC THỰC THI VÀ BÀN GIAO FILE)
+Hãy thực hiện tuần tự và xuất ra đầy đủ các phần sau:
+- **Bước 1:** Thiết kế cấu trúc thư mục dự án rõ ràng (`index.html`, `styles.css`, `script.js`, `README.md`).
+- **Bước 2:** Viết đầy đủ 100% mã nguồn file `index.html` (Semantic HTML5, Meta SEO, Schema JSON-LD, đầy đủ 9 phân khu chức năng trên, không viết tắt hay bỏ lửng bằng dấu `...`).
+- **Bước 3:** Viết đầy đủ 100% mã nguồn file `styles.css` (Hiệu ứng khói bốc lên, giao diện thẻ tích điểm 5 ô, thanh chọn 7 cấp độ cay đổi màu theo độ nồng, tối ưu nút bấm trên màn hình điện thoại).
+- **Bước 4:** Viết đầy đủ 100% mã nguồn file `script.js` xử lý:
+  - Chuyển đổi Tab thực đơn Sáng/Trưa (Bò Né) và Chiều/Tối (Mỳ Cay Naga).
+  - Bộ chọn khẩu vị cá nhân (Độ chín bò, Cấp độ cay 0-7, ghi chú riêng) và lưu/tải tự động theo Số điện thoại trong `localStorage`.
+  - Tạo chuỗi tin nhắn đặt bàn + quà tặng lần đầu + khẩu vị cá nhân tự động copy vào bộ nhớ tạm và chuyển hướng sang `https://zalo.me/0392755766`.
+  - Xử lý gửi Góp ý tại bàn theo số bàn trực tiếp đến ông chủ Bá Thành qua Zalo `0392755766`.
+- **Bước 5:** Viết file `README.md` hướng dẫn ông chủ Bá Thành cách thay thế hình ảnh, cập nhật `[GIÁ]` trong `script.js`, tạo mã QR đặt tại bàn và cách xuất bản miễn phí lên GitHub Pages.
+
+## 4. END GOAL (ĐÍCH ĐẾN KẾT QUẢ)
+Một bộ mã nguồn website hoàn chỉnh, sang trọng, ấm cúng, chạy mượt ngay khi mở file `index.html` mà không cần cài đặt môi trường phức tạp. Mọi nút bấm (Đặt bàn nhận quà lần đầu, Chọn cấp độ cay 0-7, Lưu khẩu vị theo SĐT, Góp ý tại bàn cho ông chủ Bá Thành, Gọi điện, Mở Zalo `0392755766`, Chỉ đường tới `396 Nguyễn Thị Kiểu`) đều hoạt động thật 100%.
+
+## 5. NARROWING & CONSTRAINTS (GIỚI HẠN & NGUYÊN TẮC BẮT BUỘC)
+- **Tôn trọng sự thật tuyệt đối:** Chỉ sử dụng đúng địa chỉ `396 Nguyễn Thị Kiểu, Phường Tân Thới Hiệp`, số điện thoại/Zalo `0392755766` và tên **ông chủ Bá Thành**.
+- **Không tự bịa giá hoặc đánh giá ảo:** Sử dụng biến giữ chỗ `[GIÁ]` rõ ràng trong dữ liệu thực đơn để chủ quán tự điền; không tự bịa số lượng khách hàng hay giấy chứng nhận giả.
+- **Không cắt xén code:** Viết trọn vẹn từng dòng lệnh HTML, CSS, JS để người dùng sao chép chạy được ngay.
+- **Tương thích Zalo thực tế:** Vì Zalo cá nhân không tự điền tin nhắn qua URL parameter trên mọi thiết bị, khi khách bấm "Đặt bàn qua Zalo" hoặc "Gửi góp ý cho ông chủ Bá Thành", JavaScript phải **tự động sao chép (copy) toàn bộ nội dung đơn/góp ý vào Clipboard**, hiển thị thông báo rõ ràng *"Đã sao chép thông tin khẩu vị/đặt bàn! Ông chủ/Quý khách chỉ cần Dán (Paste) vào khung chat Zalo 0392755766"*, sau đó mở `https://zalo.me/0392755766`.
